@@ -561,6 +561,10 @@ video {
   display: flex;
 }
 
+.w-1\/2 {
+  width: 50%;
+}
+
 .justify-center {
   justify-content: center;
 }
@@ -573,6 +577,16 @@ video {
 .bg-amber-400 {
   --tw-bg-opacity: 1;
   background-color: rgb(251 191 36 / var(--tw-bg-opacity));
+}
+
+.bg-purple-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(147 51 234 / var(--tw-bg-opacity));
+}
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .p-5 {
